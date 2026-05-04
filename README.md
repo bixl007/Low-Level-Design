@@ -34,7 +34,7 @@ Low-Level Design focuses on:
 
 ## 🛠️ Tech Stack
 
-- **Language:** C++
+- **Language:** Java
 
 ## 📝 Note
 

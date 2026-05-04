@@ -1,7 +1,42 @@
-# Prerequisites
-*.d
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-# Compiled Object files
+# Maven
+target/
+.m2/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+.flattened-pom.xml
+
+# Gradle
+.gradle/
+build/
+gradle/
+gradlew
+gradlew.bat
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+out/
+
+# Compiled Object files (C++)
 *.slo
 *.lo
 *.o
@@ -39,3 +74,7 @@
 
 # debug information files
 *.dwo
+
+# OS files
+Thumbs.db
+.DS_Store
