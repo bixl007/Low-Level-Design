@@ -2,7 +2,7 @@
 // Classes are OPEN for extension (can add new implementations)
 // Classes are CLOSED for modification (don't need to change existing code)
 
-public interface TaxCalculator {
+interface TaxCalculator {
     double amountAfterTax(double amount);
 }
 
